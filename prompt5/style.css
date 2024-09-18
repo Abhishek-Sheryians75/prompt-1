@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+    padding: 20px 30px;
+}
+
+.top{
+    height: 45%;
+    width: 100%;
+    background-color: black;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 70%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.left h1 span{
+    color: #ffd900;
+}
+
+.youtube{
+    width: 50%;
+    height: 20%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.elem1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.elem1 i{
+    background-color: #fff;
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 50%;
+    color: red;
+    border: none;
+    
+}
+
+.elem1 p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white    ;
+}
+
+.elem2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.elem2 i{
+    background-color: #fff;
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 50%;
+    color: red;
+    border: none;
+}
+
+.elem2 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    
+}
+
+.right{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+}
+
+.right img{
+    height: 275px;
+    z-index: 999;
+}
+
+.right .gola{
+    height: 400px;
+    width: 400px;
+    background:linear-gradient(to right, #ded632, #f5aa07);
+    position: absolute;
+    right: 2%;
+    top: 18%;
+    border-radius: 50%;
+}
+
+.bottom{
+    height: 55%;
+    width: 100%;
+    background-color: #f7f6f6;
+    position: relative;
+    z-index: 999999;
+    padding: 10px 30px;
+    border: 1px solid #d3cbcb;
+}
+
+.bttop{
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+.btleft{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    
+}
+
+.btleft .img2{
+    height: 150px;
+    width: 150px;
+    background-image: url(https://imgs.search.brave.com/0tf3e56LkQp9VrJfKoFX6bwcDrSsSp6_3qi-stazd-k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bWNwaGFnd2FyYS5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjMvMDgvU2hyYWRo/YS1LaGFwcmEtd2lr/aS5qcGc);
+    background-size: cover;
+    background-position: top;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: absolute;
+    bottom: 80%;
+}
+
+.btright{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.btright i{
+    transform: rotate(90deg);
+    font-size: 30px;
+}
+
+
+.btcenter{
+    height: 80%;
+    width: 90%;
+    /* background-color: green; */
+    display: flex;
+}
+
+.lecenter{
+    height: 100%;
+    width: 65%;
+    /* background-color: yellow; */
+    padding: 10px;
+}
+
+.lecenter h2{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.contact{
+    margin-top: 8px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact h4{
+    font-size: 15px;
+    font-weight: 500;
+    color: #272828;
+}
+
+.contact div{
+   height: 3px;
+   width: 3px;
+   border-radius: 50%;
+   background-color: #133962 ;
+   border: none;
+}
+
+.contact p{
+    font-size: 15px;
+    color: #1f4686;
+}
+
+.contact .color{
+    color: #272828;
+}
+
+.mutual{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.box1,
+.box2,
+.box3{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    margin: -3px;
+}
+
+.box1{
+    background-image: url(https://images.unsplash.com/photo-1523307730650-594bc63f9d67?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+}
+
+.box2{
+    background-image: url(https://images.unsplash.com/photo-1532417198829-90d3646e1970?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.box3{
+    background-image: url(https://images.unsplash.com/photo-1539025828301-b314ca222fa9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
+
+.mutual p{
+    margin-left: 10px;
+    font-size: 14px;
+    color: blue;
+}
+
+.join{
+    margin-top: 30px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    font-weight: 100;
+    margin-right: 10px;
+}
+
+.message{
+    background-color: transparent;
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: 1px solid #1f4686;
+    color: #1f4686;
+    font-size: 15px;
+}
+
+.message i{
+    margin-right: 10px;
+    color: #1f4686;
+}
+
+.ricenter{
+    height: 100%;
+    width: 35%;
+    /* background-color: #00c3ff; */
+    padding: 10px;
+    
+}
+
+.riapna{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.riapna p{
+    font-size: 25px;
+    color: #1f4686;
+}
+
+.apna{
+    height: 40px;
+    width: 40px;
+    background:linear-gradient(to right, yellow, #eaea4a) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 0 0 10px #262625;
+}
+
+.apna h1{
+    font-family: 'Lucida Sans';
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.college{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.netaji{
+    height: 40px;
+    width: 40px;
+    background-image: url(http://nsut.ac.in/sites/default/files/styles/home_news_thumb/public/2024-09/nsut%20logo_0.png?itok=nDs0XzH6);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.college p{
+    line-height: 1.3;
+    color: #1f4686;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
